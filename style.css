@@ -1,0 +1,51 @@
+body{
+  background-image: url(images/banner-6.jpg)
+  
+}
+
+.container{
+  display:flex;
+  flex-direction: row;
+  
+}
+.order{
+  display: flex;
+  
+  width:70%;
+  justify-content: center;
+  align-items: center;
+}
+.details{
+  display: flex;
+  flex-direction: column;
+  padding-left: -60px;
+  padding-right:60px;
+  flex:1;
+}
+#order-button{
+  background-color: red;
+  color:white;
+  border-radius: 10px;
+  border:none;
+  padding-top:10px;
+  padding-bottom: 10;
+  padding-left: 60;
+  padding-right: 60;
+  font-size: 30px;
+}
+span{
+  color: black;
+}
+.menu{
+  display: flex;
+  flex-direction: row;
+}
+.menue-icon{
+  display: flex;
+  flex-direction: row;
+  height:20px;
+}
+.cjs{
+  font-size: 60px;
+  font-weight: bold;
+}
